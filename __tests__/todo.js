@@ -6,7 +6,7 @@ const { all, markAsComplete, add, overdue, dueToday, dueLater } = todoList();
 describe("Todolist Testing", () => {
   beforeAll(() => {
     add({
-      title: "DAA algorithums",
+      title: "Pay Water Bill",
       completed: false,
       dueDate: new Date().toLocaleDateString("en-CA"),
     });
@@ -18,7 +18,7 @@ describe("Todolist Testing", () => {
     let length = all.length;
 
     add({
-      title: "node js learning",
+      title: "Schedule RMC Quiz",
       completed: false,
       dueDate: new Date().toLocaleDateString("en-CA"),
     });
